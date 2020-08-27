@@ -1,5 +1,5 @@
 {
-  "name" : "league/tactician-bundle",
+  "name" : "someblackmagic/tactician-bundle",
   "description" : "Bundle to integrate Tactician with Symfony projects",
   "type" : "symfony-bundle",
   "authors" : [
