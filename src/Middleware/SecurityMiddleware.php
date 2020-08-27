@@ -29,6 +29,8 @@ class SecurityMiddleware implements Middleware
      */
     public function execute($command, callable $next)
     {
+        return $next($command);
+        # todo add flag to active authorization checker
         if ($this->authorizationChecker->isGranted('handle', $command)) {
             return $next($command);
         }
